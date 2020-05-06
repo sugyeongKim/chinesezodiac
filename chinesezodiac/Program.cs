@@ -51,7 +51,9 @@ namespace chinesezodiac
                 case 11:
                     Console.WriteLine("당신은 양 띠 입니다~");
                     break;
-
+                default:
+                    Console.WriteLine();
+                    break;
             }
         }
     }
